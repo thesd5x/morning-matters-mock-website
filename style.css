@@ -1,0 +1,427 @@
+/* Universal Code */
+
+body {
+    background: linear-gradient(90deg, #94714f, #ebd8bd, #f2cf9d, #b58037);
+   }
+
+
+/* Navigation Bar */
+  
+.topnav {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+.topnav a {
+  float: none;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: "Cinzel", serif;
+  color: black;
+  background-color: #964B00;
+  opacity: 80%;
+}
+
+.topnav a.active {
+  font-family: "Cinzel", serif;
+  color: black;  
+}
+
+nav li {
+  display: inline-block;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  font-family: "Cinzel", serif;
+  padding: 0 20px;
+  margin: 0 100px;
+ 
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #4c4a43;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #964B00;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+/* Header Settings */
+
+  h1 {
+    font-size: 60px;
+    font-family: "Cinzel", serif;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-family: "Cinzel", serif;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    }
+  
+  .headline {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+  }
+  
+  .date {
+    position: relative; 
+    text-align: center;
+    background-color: lightgrey;
+    width: 300px;
+    left: 800px;
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+  }
+  
+  
+
+
+
+
+
+
+
+/* Homepage Garland Settings */
+
+.christmasGarland {
+  position: absolute;
+  height: auto;
+  max-width: 30%;
+  border: none;
+  left: 214px;
+  top: 1129px;
+  box-shadow: none;
+}
+
+
+
+/* Homepage Coffee Bean Image */
+  
+  .cupOfCoffee {
+    position: absolute;
+    height: auto;
+    max-width: 30%;
+    border: none;
+    right: 125px;
+    top: 1250px;
+    box-shadow: none;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  
+  img {
+    width: 80%;
+    height: auto;
+    margin: 1px auto;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+ /*Homepage Banner Image 1 */ 
+ 
+.newItemIndex {
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+  margin-top: -320px;
+  margin-left: 405px;
+  -webkit-text-fill-color: #D6001C;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #fff;
+  text-shadow: 2px 4px 10px #000;
+}
+
+.newItemIndexDetail-0 {
+  font-family: "Cinzel", serif;
+  font-size: 22px;
+  margin-top: -50px;
+  margin-left: 325px;
+  -webkit-text-fill-color: #00873e;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #000;
+  
+}
+
+.newItemIndexDetail-1 {
+  font-family: "Cinzel", serif;
+  font-size: 22px;
+  margin-top: -20px;
+  margin-left: 480px;
+  color: #fff;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #000;
+}
+
+.newItemIndexDetail-2 {
+  font-family: "Cinzel", serif;
+  font-size: 22px;
+  margin-top: -20px;
+  margin-left: 350px;
+  color: #fff;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #000;
+}
+
+
+/*Homepage Banner Image 2 */
+.indexGiftCard {
+  margin-top: 300px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.indexGiftCardFront {
+  position: absolute;
+  height: auto;
+  max-width: 25%;
+  top: 1885px;
+  left: 140px;
+}
+
+.indexGiftCardBack {
+  position: absolute;
+  height: auto;
+  max-width: 25%;
+  top: 2080px;
+  left: 500px;
+}
+  
+/* Menu Images Settings */
+
+.img-two {
+  position: relative;
+}
+
+.img-two img{
+  height: 50%;
+  width: 50%;
+}
+
+/* Menu Drink Column */
+
+.intro-one {
+  font-family:"Cinzel", serif;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.text-wrapper-1 {
+  width: 100%;
+  position: relative;
+  margin-top: -75%;
+  text-shadow: 2px 2px #000;
+}
+
+.text-wrapper-1 h3{
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Cinzel", serif;
+}
+
+.item-disclaimer {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+  font-family: "Cinzel", serif;
+  padding-top: -40px;
+}
+
+.columns-one {
+  column-count: 3;
+  padding-right: 35%;
+  padding-left: 35%;
+  text-align: center;
+  column-rule: 1px dotted #f2d6ae;
+  column-gap: 10px;
+  text-shadow: none;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* Menu Holiday Drink Column */
+
+.intro-two {
+  font-family:"Cinzel", serif;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 2px 2px #000;
+ }
+
+.columns-two {
+  column-count: 3;
+  padding-right: 35%;
+  padding-left: 35%;
+  text-align: center;
+  column-rule: 1px dotted #f2d6ae;
+  column-gap: 20px;
+ }
+
+
+/* Menu Smoothie Column */
+
+.intro-three {
+  font-family:"Cinzel", serif;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 2px 2px #000;
+ }
+
+.columns-three {
+  display: block;
+  column-count: 3;
+  padding-inline: 80px;
+  padding-right: 30%;
+  padding-left: 30%;
+  text-align: center;
+  column-rule: 1px dotted #f2d6ae;
+  column-gap: 20px;
+}
+
+/* Menu Dessert Column */
+
+.intro-four {
+  font-family:"Cinzel", serif;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 2px 2px #000;
+ }
+
+.columns-four {
+  display: block;
+  column-count: 3;
+  padding-inline: 80px;
+  padding-right: 35%;
+  padding-left: 35%;
+  text-align: center;
+  column-rule: 1px dotted #f2d6ae;
+  column-gap: 20px;
+}
+
+
+
+
+
+
+
+
+/* About Us Video Background */
+
+.hero {
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1#about-title.about-us-h1{
+  font-size: 200px;
+  color: #fff;
+  font-weight: 600px;
+  transition: 0.5s;
+  font-family: 'Inspiration', cursive;
+  -webkit-text-stroke: 0.2px #fff;
+
+}
+
+.content h1#about-title.about-us-h1:hover {
+  color: transparent;
+}
+
+.content a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  border: 2px solid #fff;
+  padding: 14px 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 500px;
+}
+
+.back-video {
+  position: absolute;
+  right: 100;
+  bottom: 400;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+.text-wrapper-three {
+  color: #fff;
+  font-family: "Cinzel", serif;
+  margin: 20px;
+  top: 80px;
+ }
+
+ .text-wrapper-three h2{
+  text-align: center;
+  margin-top: -460px;
+  font-size: 50px;
+  text-shadow: 2px 2px #000;
+  }
+ 
+
+.intro-five {
+  font-family:"Cinzel", serif;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0%;
+ }
+
